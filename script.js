@@ -7,13 +7,17 @@ console.log(message);
 // stirng
 var name;
 name = "ben";
-// numbrt
+// number
 var age;
 age = 20;
-// array
+// boolean 
+var status;
+status = true;
+// array type1
 var list1 = [1, 2, 3, 4, 4];
+// array type2
 var list2 = [1, 2, 3, 4, 5];
-// tuples  is a type the positon and item number will we same
+// tuples  is a type the positon and item number should be  we same
 var person = ['Bn', 22];
 console.log(person);
 // enum
@@ -26,3 +30,8 @@ var Colors;
 ;
 var c = Colors.Grean;
 console.log(c);
+// functions 
+var sum = function (num1, num2) {
+    return num1 + num2;
+};
+console.log("sum:".concat(sum(1, 3)));
