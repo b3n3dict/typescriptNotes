@@ -13,6 +13,17 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 // implement interface
 var Person = /** @class */ (function () {
     function Person(name, age) {
@@ -46,3 +57,16 @@ console.log(employee1.age);
 console.log(employee1.position);
 employee1.display();
 // generics
+function getArray(items) {
+    return new Array().concat(items);
+}
+var numArray = getArray([1, 2, 3, 4]);
+var strArray = getArray(['b', 'c', 'd']);
+function array(a, b) {
+    console.log(a, b);
+}
+function makeFullname(obj) {
+    return __assign(__assign({}, obj), { fullName: obj.firstName + " " + obj.lastName });
+}
+var v1 = makeFullname({ firstName: "ben", lastName: "xav", age: 22 });
+console.log(v1);

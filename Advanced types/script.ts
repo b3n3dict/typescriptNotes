@@ -100,3 +100,5 @@ interface MathFun {
     (x:number,y:number):number
 }
 const add : MathFun =(x:number,y:number):number => x+y
+
+
