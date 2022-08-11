@@ -1,7 +1,9 @@
-var employee = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let employee = {
     id: 1,
     name: "Ben",
-    retire: function (date) {
+    retire: (date) => {
         console.log(date);
     }
 };
@@ -14,14 +16,14 @@ function kgToLbs(weight) {
         return parseInt(weight) * 2.2;
 }
 // intersection 
-var weight;
-var textBox = {
-    drag: function () {
+let weight;
+let textBox = {
+    drag() {
     },
-    resize: function () {
+    resize() {
     }
 };
-var quantity = 50;
+let quantity = 50;
 // nullable 
 function great(name) {
     if (name) {
@@ -34,14 +36,14 @@ great(null);
 function getCustomer(id) {
     return id === 0 ? null : { birthday: new Date() };
 }
-var customer = getCustomer(0);
+let customer = getCustomer(0);
 console.log(customer === null || customer === void 0 ? void 0 : customer.birthday);
 // type assersion   | treat entity diffrent as diffrent type
-var val;
-var val2 = val;
-var val3 = val;
-var user1 = {
+let val;
+let val2 = val;
+let val3 = val;
+const user1 = {
     id: 1,
     name: "ben"
 };
-var add = function (x, y) { return x + y; };
+const add = (x, y) => x + y;
