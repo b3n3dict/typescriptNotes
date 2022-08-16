@@ -1,4 +1,5 @@
-namespace App {
+import {Project,ProjectStatus} from '../models/project-model'
+
     
     // Project state Management
     type Listner<T> = (items:T[])=>void;
@@ -46,4 +47,4 @@ namespace App {
     }
     // singleton
     export const projectState = ProjectState.getInstance()!
-}
+

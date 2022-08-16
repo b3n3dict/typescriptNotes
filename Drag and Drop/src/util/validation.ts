@@ -1,5 +1,4 @@
-namespace App{
-    // validation
+
 export interface Validatable {
     value:string|number;
     requiered?:boolean;
@@ -28,4 +27,3 @@ export interface Validatable {
      }
      return isValid
  }
-}
