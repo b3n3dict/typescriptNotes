@@ -27,7 +27,7 @@ export class ProjectItem extends Component<HTMLUListElement,HTMLLIElement> imple
        event.dataTransfer!.effectAllowed = 'move';
    }
    dragEndHandler(_: DragEvent): void {
-       
+       console.log("dragEnd")
    }
    configure(): void {
         this.element.addEventListener('dragstart',this.dragStartHandler)

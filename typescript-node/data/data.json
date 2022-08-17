@@ -1,0 +1,35 @@
+[
+    {
+       "fname":"Benedict",
+       "lname":"Xavier",
+       "age": 22,
+       "address": "emprayil house, bheemanady, kasaragod",
+       "phone": 8289906276,
+       "email": "benedict.xavier@gadgeon.com"
+    },
+    {
+      "fname": "Bony",
+      "lname":"Xavier",
+      "age": 20,
+      "address": "emprayil house, bheemanady, kasaragod",
+      "phone": 76435578978,
+      "email": "bony@gmail.com"
+   },
+    {
+       "fname": "joyal",
+       "lname":"varghese",
+       "age": 23,
+       "address": "cherikathara house, bheemanady, kasaragod",
+       "phone": 9847347909,
+       "email": "joyal@gmail.com"
+    },
+    {
+       "fname": "antony",
+       "lname": "varghese",
+       "age": 26,
+       "address": "varanath house, pezhumkavala, kattappana p.o",
+       "phone": 99338839309,
+       "email": "antony@gmail.com"
+    }
+ ]
+ 
